@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Test Lumhaa
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Open+Sans:wght@700&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <!-- <script src="js/app.js"></script> -->
+</head>
+
+<body>
+    <div class="container-fluid fullheight">
+        <div class="col-sm-12 header no-padding">
+            <nav class="navbar navbar-expand-lg center navbar-light bg-white ZIndex100">
+                <!-- <a class="navbar-brand" href="#">Lumhaa</a> -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <div class="navbar-nav-wrapper col-sm-5">
+                        <ul class="navbar-nav nav ml-auto">
+                            <li class="nav-item paddingRight20">
+                                <a class="nav-link" href="#">Create a Memory Jar </a>
+                            </li>
+                            <li class="nav-item paddingRight20">
+                                <a class="nav-link" href="#">Build a Family tree</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Lumhaa App</a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="navbar-brand d-none d-lg-block col-sm-1">
+                        <a class="navbar-brand" href="#">Lumhaa</a>
+                    </div>
+                    
+                    <div class="navbar-nav-wrapper col-sm-6">
+                        <ul class="navbar-nav nav ml-auto">
+                            <li class="nav-item paddingRight10">
+                                <a class="nav-link" href="#">Shop</a>
+                            </li>
+                            <li class="nav-item paddingRight10">
+                                <a class="nav-link" href="#">Our Services</a>
+                            </li>
+                            <li class="nav-item dropdown paddingRight10">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    About Lumhaa
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+                            <li class="nav-item paddingRight20">
+                                <button class="btn btn-light my-2 my-sm-0" >Sign Up</button>
+                            </li>
+                            <li class="nav-item">
+                                <button class="btn" >Login</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="bannerWrapper col-sm-12">
+            <video autoplay muted loop id="myVideo" class="videoContainer ZIndex1">
+                <source src="rain.mp4" type="video/mp4">
+              Your browser does not support HTML5 video.
+            </video>
+            <div class="col-sm-12 banner text-center ZIndex99">
+                <div class="col-sm-12 banner-header">
+                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</span>
+                </div>
+                
+            </div>
+            <div class="col-sm-12 banner text-center ZIndex99">
+                <div class="banner-subHeader col-sm-12">
+                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                </div>
+            </div>
+
+            <div class="col-sm-12 banner text-center ZIndex99">
+                <form class="form-inline bannerForm">
+                    <div class="form-group mx-sm-3 mb-2">
+                        <label for="nameJar" class="sr-only">Name Your Jar</label>
+                        <input type="text" class="form-control customInput" placeholder="Name Your Jar" id="nameJar" >
+                    </div>
+                    <div class="form-group mx-sm-3 mb-2">
+                        <label for="email" class="sr-only">Email Address</label>
+                        <input type="text" class="form-control customInput" id="email" placeholder="Email Address">
+                    </div>
+                    <button type="button" data-toggle="modal" data-target="#signUpModal" class="bannerBtn btn btn-secondary mb-2">Create</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="row featureWrapper">
+            <div class="col-sm-4 feature">
+                <div class="boxColor bg-grey"></div>
+                <div class="featureHeader">
+                    Feature
+                </div>
+                <div class="featureContent">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </div>
+            </div>
+            <div class="col-sm-4 feature">
+                <div class="boxColor bg-grey"></div>
+                <div class="featureHeader">
+                    Feature
+                </div>
+                <div class="featureContent">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </div>
+            </div>
+            <div class="col-sm-4 feature">
+                <div class="boxColor bg-grey"></div>
+                <div class="featureHeader">
+                    Feature
+                </div>
+                <div class="featureContent">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="signUpModalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Complete Sign Up</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="name" class="col-form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="password" class="col-form-label">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Enter Password">
+                        </div>
+                    </form>
+                    <div class="col-sm-12">
+                        <button type="button" class="btn btn-secondary wd100">Sign Up</button>
+                        <button type="button" class="wd100 btn" data-dismiss="modal"><span class="bb">Signup Later</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

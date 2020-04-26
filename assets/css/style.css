@@ -1,0 +1,177 @@
+html,
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	/*color: #000;*/
+	line-height: 22px;
+	-webkit-font-smoothing: antialiased;
+	height: 100vh;
+}
+
+a {
+	/*color: #000;*/
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.fullheight {
+	height: 100%;
+}
+
+.no-border {
+	border: none;
+}
+
+.wd100 {
+	width: 100%;
+}
+
+.bg-grey {
+	background-color: #aaa;
+}
+
+.bb {
+	border-bottom: 1px #aaa solid;
+}
+
+.no-padding {
+	padding: 0px;
+}
+
+.paddingRight20 {
+	padding-right: 20px;
+}
+
+.paddingRight10 {
+	padding-right: 10px;
+}
+
+.bannerWrapper {
+	background-color: #f8f9fa;
+	font-family: 'ABeeZee', sans-serif;
+	height: auto;
+	position: relative;
+}
+
+.banner {	
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.videoContainer {
+	position: absolute;
+    right: 0;
+    bottom: 0px;
+    width: 100%;
+}
+
+.banner .banner-header {
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 1.2;
+    padding: 5% 15% 2%;
+    color: #fff;
+}
+
+.banner .banner-subHeader {
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 1.2;
+    padding: 2% 20%;
+    color: #fff;
+}
+
+.banner .bannerForm {
+	font-weight: 400;
+	padding: 2% 20% 5%;
+}
+
+.bannerBtn {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.customInput , .customInput:focus , .customInput:blur {
+	background-color: transparent;
+    border: none;
+    border-bottom: 1px #fff solid;
+    border-radius: 0px;
+    padding-left: 2px;
+    color: #fff;	
+}
+
+.featureWrapper .feature {
+	padding: 5%;
+	text-align: left;
+	line-height: 1.10;
+}
+
+.feature .boxColor {
+	width: 50px;
+	height: 50px;
+	padding: 5px;
+}
+
+.feature .featureHeader {
+	font-family: 'Zilla Slab', serif;
+	font-size: 36px;
+	padding: 15px 0px;
+}
+
+.feature .featureContent {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	line-height: 1.10;
+}
+
+.ZIndex100 {
+	z-index: 100
+}
+
+.ZIndex99 {
+	z-index: 99
+}
+
+.ZIndex1 {
+	z-index: 1
+}
+
+/* Media Query */
+@media (min-width: 320px) and (max-width: 768px) {
+	.videoContainer {
+		width: auto !important;
+    	height: 100% !important;
+	}
+} 
+
+@media (min-width: 768px) and (max-width: 990px) {
+	.videoContainer {
+		width: 100% !important;
+    	height: 100% !important;
+	}
+	.navbar-nav-wrapper > ul > li {
+		padding-right: 0px !important;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1150px) {
+	.navbar-nav-wrapper > ul > li {
+		padding-right: 0px !important;
+	}
+}
+
+/*// Medium devices (tablets, 768px and up)
+@media (min-width: 768px)  ... 
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px)  ... 
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px)  ...*/
