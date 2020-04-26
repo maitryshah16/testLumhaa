@@ -98,14 +98,37 @@ a:hover {
 	font-size: 18px;
 }
 
-.customInput , .customInput:focus , .customInput:blur {
+.customInput {
 	background-color: transparent;
     border: none;
     border-bottom: 1px #fff solid;
     border-radius: 0px;
     padding-left: 2px;
-    color: #fff;	
+    color: #fff;
 }
+
+.customInput::placeholder {
+	color: #fff;
+}
+
+.customInput:focus {
+	background-color: transparent;
+    border: none;
+    border-bottom: 1px #fff solid;
+    border-radius: 0px;
+    padding-left: 2px;
+    color: #fff;
+}
+
+.customInput:blur {
+	background-color: transparent;
+    border: none;
+    border-bottom: 1px #fff solid;
+    border-radius: 0px;
+    padding-left: 2px;
+    color: #fff;
+}
+
 
 .featureWrapper .feature {
 	padding: 5%;
